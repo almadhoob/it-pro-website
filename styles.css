@@ -252,13 +252,13 @@ button {
 .primary-nav {
   display: flex;
   align-items: center;
-  gap: 1.75rem;
+  gap: clamp(1rem, 1.5vw, 1.75rem);
 }
 
 .nav-list {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  gap: clamp(0.625rem, 1.1vw, 1.25rem);
   list-style: none;
 }
 
@@ -268,6 +268,7 @@ button {
   color: var(--text-secondary);
   padding: 0.5rem 0.25rem;
   position: relative;
+  white-space: nowrap;
   transition: color var(--transition-fast);
 }
 
@@ -1135,6 +1136,7 @@ button {
   opacity: 0;
   visibility: hidden;
   transform: translateY(12px);
+  pointer-events: none;
   transition: opacity var(--transition-normal), transform var(--transition-normal), visibility var(--transition-normal);
   z-index: 10000;
 }
@@ -1143,6 +1145,7 @@ button {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
+  pointer-events: auto;
 }
 
 .toast-icon {
@@ -1236,7 +1239,7 @@ button {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 960px) {
   :root {
     --nav-height: 64px;
   }
