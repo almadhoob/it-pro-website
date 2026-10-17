@@ -21,7 +21,7 @@ In keeping with our values, this website is built with **zero bloatware**:
 ├── favicon.svg          # Vector favicon inspired by the official shield
 ├── index.html           # Semantic markup, metadata, and structured sections
 ├── styles.css           # Vanilla CSS properties, grid/flex, fluid typography
-├── script.js            # Vanilla JS for navigation, scrollspy, and email copying
+├── script.js            # Vanilla JS for navigation and scrollspy
 ├── LICENSE              # MIT License
 └── README.md            # Project documentation
 ```
@@ -31,11 +31,8 @@ In keeping with our values, this website is built with **zero bloatware**:
 Because this project uses standard static files, no compilation or packaging is required. You can serve it using any local HTTP server:
 
 ```bash
-# Using Python 3
-python3 -m http.server 8080
-
-# Or using Node.js
-npx serve .
+# Using Python
+python -m http.server 8080
 ```
 
 Open `http://localhost:8080` in your browser.
@@ -47,5 +44,5 @@ Open `http://localhost:8080` in your browser.
 
 ## License
 
-Copyright (c) 2026 The IT Pro Community. All rights reserved.
+Copyright (c) 2026 The IT Pro Community. All rights reserved.<br />
 This project is open source and available under the [MIT License](LICENSE).
