@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" aria-hidden="true">
+  <defs>
+    <clipPath id="shield-clip">
+      <path d="M16 2 L27 6.5 C28 10 28 20 27 23.5 L16 30 L5 23.5 C4 20 4 10 5 6.5 Z" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#shield-clip)">
+    <!-- Left Half: Bright Bahrain Crimson Background -->
+    <path d="M0 0 H16 V32 H0 Z" fill="#D5101A" />
+
+    <!-- Left Half: Bahrain Flag White Serrated Pattern (5 Triangles) -->
+    <!-- The white band on the left with 5 serrated teeth pointing into the crimson field -->
+    <path d="M0 0 H7.5 L15 6 L7.5 11 L15 16 L7.5 21 L15 26 L7.5 31 L0 32 Z" fill="#FFFFFF" />
+
+    <!-- Right Half: Deep Crimson Background -->
+    <path d="M16 0 H32 V32 H16 Z" fill="#B00D15" />
+
+    <!-- Right Half: Minimalist Circuit Node Icon -->
+    <!-- Center Node Ring -->
+    <circle cx="22" cy="16" r="3" fill="none" stroke="#FFFFFF" stroke-width="1.5" />
+    <circle cx="22" cy="16" r="1.2" fill="#FFFFFF" />
+
+    <!-- Circuit Traces & Terminal Nodes -->
+    <!-- Top-Right Trace -->
+    <path d="M22 13 V10 H26" fill="none" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="26" cy="10" r="1" fill="#FFFFFF" />
+
+    <!-- Horizontal Right Trace -->
+    <path d="M25 16 H27.5" fill="none" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round" />
+    <circle cx="27.5" cy="16" r="1" fill="#FFFFFF" />
+
+    <!-- Bottom-Right Trace -->
+    <path d="M22 19 V22 H26" fill="none" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="26" cy="22" r="1" fill="#FFFFFF" />
+
+    <!-- Upper Diagonal Trace -->
+    <path d="M19.8 13.8 L18 11.5" fill="none" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round" />
+    <circle cx="18" cy="11.5" r="0.9" fill="#FFFFFF" />
+
+    <!-- Lower Diagonal Trace -->
+    <path d="M19.8 18.2 L18 20.5" fill="none" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round" />
+    <circle cx="18" cy="20.5" r="0.9" fill="#FFFFFF" />
+  </g>
+
+  <!-- Clean Shield Border Contour -->
+  <path d="M16 2 L27 6.5 C28 10 28 20 27 23.5 L16 30 L5 23.5 C4 20 4 10 5 6.5 Z" fill="none" stroke="#82080E" stroke-width="0.8" opacity="0.4" />
+</svg>
